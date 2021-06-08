@@ -94,7 +94,7 @@ masking_model = load_model(model_dir)
 
 import cv2
 
-cap = cv2.VideoCapture("helmet1.mp4")
+cap = cv2.VideoCapture(0)
 
 prev_frame_time = 0
 new_frame_time = 0
