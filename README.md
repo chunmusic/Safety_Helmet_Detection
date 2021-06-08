@@ -18,4 +18,4 @@ python inference.py
 
 ## Preview
 
-![Image1](https://raw.githubusercontent.com/chunmusic/Safety_Helmet_Detection/tree/master/screenshot/output.gif)
+![Image1](https://raw.githubusercontent.com/chunmusic/Safety_Helmet_Detection/master/screenshot/output.gif)
