@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>hard_hat_workers147.jpg</filename>
+	<path>/home/pongsakorn/kaggle_ws/safety_helmet_ws/dataset/images/hard_hat_workers147.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>415</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Safety Helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>300</xmin>
+			<ymin>145</ymin>
+			<xmax>382</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+</annotation>
