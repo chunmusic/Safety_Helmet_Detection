@@ -36,7 +36,7 @@ def load_model(model_dir):
     
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = '/home/pongsakorn/kaggle_ws/safety_helmet_ws/dataset/label_map.pbtxt'
+PATH_TO_LABELS = 'dataset/label_map.pbtxt'
 category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
 
 
@@ -89,7 +89,7 @@ def show_inference(model, image_np):
     
     return final_img
 
-model_dir = '/home/pongsakorn/kaggle_ws/safety_helmet_ws/output/export_saved_model/saved_model'
+model_dir = 'output/export_saved_model/saved_model'
 masking_model = load_model(model_dir)
 
 import cv2
